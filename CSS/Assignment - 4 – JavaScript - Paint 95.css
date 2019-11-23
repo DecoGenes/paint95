@@ -1,0 +1,166 @@
+body {
+  height: 100vh;
+  width: 100vw;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+.paintContainer {
+  height: 95vh;
+  width: 60vw;
+  border: 3px solid gray;
+}
+#topBar {
+  display: flex;
+  flex-direction: row;
+  background-color: lightblue;
+  justify-content: center;
+  align-items: center;
+  height: 55px;
+  opacity: 0.8;
+}
+
+.topBarBtn {
+  padding: 1%;
+  box-shadow: 2px 2px black;
+}
+
+.topBarBtnSelected {
+  border: black 1px solid;
+}
+
+#canvasId {
+  position: absolute;
+  border: 1px solid black;
+  cursor: crosshair;
+  overflow: hidden;
+  left: 14%;
+  top: 13%;
+}
+
+.colorContainer {
+  display: flex;
+  padding-left: 3%;
+}
+
+.changeSizeContainer {
+  padding: 3%;
+}
+
+.newHeightContainer {
+  margin-bottom: 1%;
+}
+
+.newWidthContainer {
+  margin-bottom: 1%;
+  padding-left: 3px;
+}
+
+#colorColumnOne {
+}
+#colorColumnTwo {
+  margin-left: 1%;
+}
+
+#blue {
+  background-color: blue;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  margin: 10% 10%;
+}
+
+#green {
+  background-color: green;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  margin: 10% 10%;
+}
+
+#yellow {
+  background-color: yellow;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  margin: 10% 10%;
+}
+
+#black {
+  background-color: black;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  margin: 10% 10%;
+}
+
+#orange {
+  background-color: orange;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  margin: 10% 10%;
+}
+#red {
+  background-color: red;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  margin: 10% 10%;
+}
+#purple {
+  background-color: purple;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  margin: 10% 10%;
+}
+#brown {
+  background-color: brown;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  margin: 10% 10%;
+}
+#pink {
+  background-color: pink;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  margin: 10% 10%;
+}
+#gray {
+  background-color: gray;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  margin: 10% 10%;
+}
+#magenta {
+  background-color: magenta;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  margin: 10% 10%;
+}
+#lightblue {
+  background-color: lightblue;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  margin: 10% 10%;
+}
+#lightgreen {
+  background-color: lightgreen;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  margin: 10% 10%;
+}
+#gold {
+  background-color: gold;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  margin: 10% 10%;
+}

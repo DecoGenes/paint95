@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="./CSS/Assignment - 4 – JavaScript - Paint 95.css">
+    <!-- <script src="https://kit.fontawesome.com/55da18f740.js" crossorigin="anonymous"></script> -->
+</head>
+
+<body>
+    <div class="paintContainer">
+        <div id="topBar">
+            <button id="white" class="topBarBtn">Eraser</button>
+            <button id="square" class="topBarBtn">Square</button>
+            <button id="circle" class="topBarBtn">Circle</button>
+            <button id="small" class="topBarBtn">Small</button>
+            <button id="medium" class="topBarBtn">Medium</button>
+            <button id="large" class="topBarBtn">Large</button>
+            <button id="clear" class="topBarBtn">Clear Canvas</button>
+        </div>
+        <div id="canvasId"></div>
+        <div class="colorContainer">
+            <div id="colorColumnOne">
+                <div id="blue"></div>
+                <div id="green"></div>
+                <div id="yellow"></div>
+                <div id="black"></div>
+                <div id="orange"></div>
+                <div id="red"></div>
+                <div id="purple"></div>
+            </div>
+            <div id="colorColumnTwo">
+                <div id="brown"></div>
+                <div id="pink"></div>
+                <div id="gray"></div>
+                <div id="lightblue"></div>
+                <div id="magenta"></div>
+                <div id="lightgreen"></div>
+                <div id="gold"></div>
+            </div>
+        </div>
+        <div class="changeSizeContainer">
+            <div class="newHeightContainer">
+                <label for="heigth">Heigth</label>
+                <input type="number" name="heigth" min='100' max="2000" id="newCanvasHeigthId"></input>
+            </div>
+            <div class="newWidthContainer">
+                <label for="width">Width</label>
+                <input type="number" name="width" min='100' max="2000" id="newCanvasWidthId"></input>
+            </div>
+            <div>
+                <button type="button" id="canvasChangeBtn">Submit</button>
+            </div>
+        </div>
+    </div>
+    <script src="./JS/Assignment - 4 – JavaScript - Paint 95.js">
+    </script>
+</body>
+
+</html>
